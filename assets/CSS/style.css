@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Open+Sans:wght@300&family=Oswald&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+} 
+
+body {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+    color: #3a3a3a;
+}
+
+#menu {
+    font-size: 100%;
+    letter-spacing: 1px;
+    line-height: 75px;
+    float: right;
+    
+    
+}
+
+#menu li {
+    list-style-type: none;
+    margin-right: 15px;
+    float: left;
+    
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+    border-left-style: double;
+    border-left-color: #9c1b1b;
+    padding-left: 5px;
+}
+
+#menu a:hover {
+    border-bottom: 4px solid #9c1b1b;
+}
+
+.active {
+    border-bottom: 2px solid #3a3a3a;
+}
+
+#hero-outer {
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    /* padding: 10px; */
+    background: red;
+}
+
+#hero-video video {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 5;
+    object-fit: cover;
+}
+
+
+
+
+/* footer */
+
+footer {
+    height: 50px;
+}
+
+.social-network {
+    text-align: center;
+}
+
+.social-network > li {
+    display: inline;
+}
+
+.social-network i {
+    font-size: 160%;
+    margin: 1%;
+    color: #9c1b1b; 
+}
+
+footer p {
+    text-align: center;
+    padding-top: 20px;
+    color: inherit;
+    font-family: 'Raleway', sans-serif;
+  
+}
