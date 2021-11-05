@@ -12,6 +12,8 @@ body {
     color: #3a3a3a;
 }
 
+/*menu style*/
+
 #menu {
     font-size: 100%;
     letter-spacing: 1px;
@@ -44,6 +46,8 @@ body {
     border-bottom: 2px solid #3a3a3a;
 }
 
+/*hero video and hero image*/
+
 #hero-outer {
     height: 100vh;
     width: 100%;
@@ -52,7 +56,6 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    /* padding: 10px; */
 }
 
 #hero-video video {
@@ -64,6 +67,35 @@ body {
     z-index: 5;
     object-fit: cover;
 }
+
+#hero-outer2 {
+    height: 500px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+#hero-outer2 .hero-image {
+    width: 100%;
+    height: 500px;
+    position: relative;
+    background: url('../images/hero-image.jpg') center center no-repeat;
+}
+
+/* hero image animation*/
+
+#hero-outer2 .hero-image {
+    height: 500px;
+    background: linear-gradient(45deg, rgba(255,175,189,.5), rgba(100,216,243,.5), rgba(234,236,198,.5), rgba(245,146,176,.5), rgba(52,219,216,.5)) 0 0 / 600% no-repeat, url('../images/hero-image.jpg') 0 0 / cover no-repeat;
+    animation: gradientAnimation 40s ease infinite;
+  }
+  @keyframes gradientAnimation {
+    0%   { background-position: 0% 30%, 0 0;}
+    50%  { background-position: 100% 70%, 0 0;}
+    100% { background-position: 0% 30%, 0 0;}
+  }
+
+/*hero-video overlay text style*/
 
 .invitation {
     position: relative;
@@ -84,8 +116,72 @@ body {
 }
 
 
+/* did-you-know?  style*/
 
-/* footer */
+#did-you-know {
+    height: 600px;
+}
+
+#facts-text {
+  width: 100%;
+  float: right;
+  overflow: auto;
+  height: 500px;
+}
+
+hr {
+  border-top: 4px solid #9c1b1b;
+  width: 100%;
+  margin-left: 20px;
+}
+
+.facts-text-heading {
+    width: 95%;
+    clear: both;
+    float: left;
+    margin-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+
+#facts {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 50px;
+}
+
+.facts-text-heading h2 {
+    text-align: left;
+    padding-bottom: 7px;
+    letter-spacing: 1px;
+}
+
+.facts-text-heading h3 {
+    text-align: center;
+    font-size: 200%;
+}
+
+.facts-text-heading p {
+    text-align: left;
+    padding-bottom: 7px;
+}
+
+#top-btn {
+    position: sticky;
+    bottom: 10px;
+    float: right;
+    background-color:rgba(85, 85, 85, .2);
+    padding: 10px;
+    font-size: 150%;
+}
+
+#top-btn:hover {
+  background-color: rgba(156, 27, 27, 0.2);
+}
+
+
+
+/* footer style*/
 
 footer {
     height: 50px;
@@ -112,3 +208,4 @@ footer p {
     font-family: 'Raleway', sans-serif;
   
 }
+
