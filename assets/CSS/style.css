@@ -199,20 +199,12 @@ hr {
     padding-bottom: 7px;
 }
 
-#top-btn {
-    position: sticky;
-    bottom: 10px;
+#facts-text i {
     float: right;
-    background-color:rgba(85, 85, 85, .2);
-    padding: 10px;
-    font-size: 150%;
+    padding-right: 20px;
+    font-size: 40px;
+    color: #9c1b1b;
 }
-
-#top-btn:hover {
-  background-color: rgba(156, 27, 27, 0.2);
-}
-
-
 
 /* footer style*/
 
