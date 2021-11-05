@@ -53,9 +53,20 @@ body {
     width: 100%;
     overflow: hidden;
     position: relative;
-    display: flex;
+    /* display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center; */
+}
+
+#hero-outer::after {
+    width: 100%;
+    height: 100%;
+    content: '';
+    position: absolute;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    background: rgb(234, 147, 147, 0.4);
 }
 
 #hero-video video {
@@ -66,6 +77,16 @@ body {
     left: 0;
     z-index: 5;
     object-fit: cover;
+}
+
+#hero-outer .texture {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 15;
+    background: url(../texture/texture.png);
 }
 
 #hero-outer2 {
@@ -81,6 +102,7 @@ body {
     position: relative;
     background: url('../images/hero-image.jpg') center center no-repeat;
 }
+
 
 /* hero image animation*/
 
@@ -100,19 +122,30 @@ body {
 .invitation {
     position: relative;
     z-index: 20;
-    color: rgba(248, 213, 213, 0.8);
+    color: white;
 }
 
 #hero-video .invitation {
     width: 20%;
     margin: 2%;
+    padding-top: 100px;
     
+}
+
+#hero-video h2 {
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-bottom: 0.5rem;
+    font-size: 1.5em;
 }
 
 #hero-video h3 {
     font-family: 'Roboto', cursive;
     letter-spacing: 1px;
     line-height: 25px;
+    font-size: 1rem;
+    margin: 0;
 }
 
 
@@ -207,5 +240,61 @@ footer p {
     color: inherit;
     font-family: 'Raleway', sans-serif;
   
+}
+
+
+
+/* media querie home page */
+
+@media screen and (max-width: 768px) {
+  
+    #hero-video .invitation {
+        padding-top: 50px;
+    }
+
+    #hero-video h2 {
+        font-size: 1.25em;
+    }
+
+    #hero-video h3 {
+        line-height: 25px;
+        font-size: 0.90rem;
+    }
+
+
+}
+
+@media screen and (max-width: 425px) {
+
+    #hero-video .invitation {
+        width: 100%;
+    }
+
+    #hero-video h2 {
+        font-size: 1.25em;
+    }
+
+    #hero-video h3 {
+        line-height: 25px;
+        font-size: 0.90rem;
+    }
+}
+
+@media screen and (max-width: 375px) {
+
+    #hero-video .invitation {
+        width: 100%;
+    }
+
+    #hero-video h2 {
+        font-size: 1em;
+        padding-left: 5px;
+    }
+
+    #hero-video h3 {
+        line-height: 25px;
+        font-size: 0.90rem;
+        padding-left: 5px;
+    }
 }
 
