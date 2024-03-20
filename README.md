@@ -63,5 +63,5 @@
 >Animation code for hero image by Naoya [Link](https://csshint.com/css-hero-effects/)
 
 ## Contact
->Created by Emanuel Covasa e.covasa@gmail.com [LinkedIn](https://www.linkedin.com/in/16051985/) 
+>Created by Emanuel Covasa
 
