@@ -1,11 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Oswald&family=Roboto:ital,wght@1,300&display=swap');
 
+/* Global styles applied to all elements to reset default browser styling */
 * {
     margin: 0;
     padding: 0;
     border: none;
-} 
+}
 
+/* Basic styling for the body element, setting the font family, weight, and text color */
 body {
     font-family: 'Oswald', sans-serif;
     font-weight: 300;
@@ -24,26 +26,26 @@ body {
 }
 
 #menu li {
-    list-style-type: none;
-    margin-right: 15px;
+    list-style-type: none;   /* Removing bullet points from list items */
+    margin-right: 15px;   /* Spacing between menu items */
     float: left;
     
 }
 
 #menu a {
-    text-decoration: none;
+    text-decoration: none;  /* Removing underline from links */
     color: inherit;
-    border-left-style: double;
+    border-left-style: double;  /* Adding a double border to the left of links */
     border-left-color: #9c1b1b;
     padding-left: 5px;
 }
 
 #menu a:hover {
-    border-bottom: 4px solid #9c1b1b;
+    border-bottom: 4px solid #9c1b1b;   /* Adding a bottom border on hover for a visual effect */
 }
 
 .active {
-    border-bottom: 2px solid #3a3a3a;
+    border-bottom: 2px solid #3a3a3a;    /* Highlighting the active menu item */
 }
 
 /*hero video and hero image*/
@@ -53,9 +55,9 @@ body {
     width: 100%;
     overflow: hidden;
     position: relative;
-    /* display: flex;
+    display: flex;
     align-items: center;
-    justify-content: center; */
+    justify-content: center;
 }
 
 #hero-outer::after {
