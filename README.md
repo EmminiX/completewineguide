@@ -1,7 +1,7 @@
 # Complete Wine Guide
 >The aim of this project is to bring as much information about wine to all enthusiasts and build a community for wine lovers. 
 
->Live Link [_here_](https://emicovasa.github.io/completewineguide/index.html). 
+>Live Link [_here_](https://emminix.github.io/completewineguide/maps.html). 
 > 
 ## Table of Contents
 * [General Info](#general-information)
@@ -55,7 +55,7 @@
 
 >   -Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
     
->Live Link [_here_](https://emicovasa.github.io/completewineguide/index.html).
+>Live Link [_here_](https://emminix.github.io/completewineguide/maps.html).
 
 ## Acknowledgements
 >Home page was inspired from youtube tutorials made by Mr Digital [youtube channel](https://www.youtube.com/channel/UCrGZCgKfpPANtEG0bHESUOA)
